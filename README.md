@@ -1,3 +1,44 @@
+
+# 源码分析
+
+## 文件结构
+
+``` bash
+/Users/liufang/openSource/FunnyLiu/meld
+├── CHANGES.md
+├── LICENSE.txt
+├── README.md
+├── aspect
+|  ├── cache.js
+|  ├── memoize.js
+|  └── trace.js
+├── bower.json
+├── docs
+|  ├── TOC.md
+|  ├── api.md
+|  ├── aspects.md
+|  └── reference.md
+├── meld.js
+├── package-lock.json
+├── package.json
+
+directory: 718 file: 5325
+
+ignored: directory (117)
+
+```
+
+## 外部模块依赖
+
+请在： http://npm.broofa.com?q=meld 查看
+
+## 内部模块依赖
+
+![img](./inner.svg)
+  
+
+
+
 [![Build Status](https://secure.travis-ci.org/cujojs/meld.png)](http://travis-ci.org/cujojs/meld)
 
 [Aspect Oriented Programming](http://en.wikipedia.org/wiki/Aspect-oriented_programming "Aspect-oriented programming - Wikipedia, the free encyclopedia") for Javascript.  It allows you to change the behavior of, or add behavior to methods and functions (including constructors) *non-invasively*.

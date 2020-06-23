@@ -19,7 +19,6 @@ Fixture.prototype = {
 buster.testCase('before', {
 	'should invoke advice before advised method': function() {
 		var target = new Fixture();
-
 		meld.before(target, 'method', function before1(a) {
 			// this should be the advised object
 			assert.equals(target, this);
